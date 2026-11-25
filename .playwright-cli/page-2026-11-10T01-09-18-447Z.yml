@@ -1,0 +1,32 @@
+- generic [ref=e3]:
+  - heading "先认识一下你的身体" [level=2] [ref=e8]
+  - paragraph [ref=e9]: 用于计算基础代谢和每日消耗
+  - generic [ref=e10]:
+    - generic [ref=e11]: 性别
+    - generic [ref=e12]:
+      - button "男" [ref=e13] [cursor=pointer]
+      - button "女" [ref=e14] [cursor=pointer]
+  - generic [ref=e15]:
+    - generic [ref=e16]: 出生年份
+    - button "1995年 · 约 31 岁 滑动选择 ›" [ref=e17] [cursor=pointer]:
+      - generic [ref=e18]: 1995年 · 约 31 岁
+      - generic [ref=e19]: 滑动选择 ›
+  - generic [ref=e20]:
+    - generic [ref=e21]: 身高
+    - button "170cm 滑动选择 ›" [ref=e22] [cursor=pointer]:
+      - generic [ref=e23]: 170cm
+      - generic [ref=e24]: 滑动选择 ›
+  - generic [ref=e25]:
+    - generic [ref=e26]: 当前体重
+    - button "140斤 滑动选择 ›" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: 140斤
+      - generic [ref=e29]: 滑动选择 ›
+  - generic [ref=e30]:
+    - generic [ref=e31]: 日常活动量（不含训练）
+    - combobox [ref=e32]:
+      - option "基本不动 · 办公室久坐"
+      - option "偶尔走动 · 少量站立" [selected]
+      - option "经常走动 · 站立型工作"
+      - option "大量走动 · 体力劳动"
+    - generic [ref=e33]: 只算工作、通勤、家务这类日常走动，训练消耗在下一步单独设置。
+  - button "下一步" [ref=e35] [cursor=pointer]
