@@ -2,3 +2,7 @@ node_modules/
 .DS_Store
 *.log
 .vscode/
+.playwright-cli/
+*.bak.js
+_unused.json
+_localhash.json
